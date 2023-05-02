@@ -1,11 +1,20 @@
 <script>
+// importo il componente Projects
+import Projects from './components/Projects.vue';
+
 export default{
-  
+  //registro il componente
+  components:{
+    Projects
+  }
 }
 </script>
 
 <template>
-
+  <div class="container">
+    <!-- uso il componente -->
+    <Projects />
+  </div>
 </template>
 
 <style scoped>
