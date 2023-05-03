@@ -14,7 +14,7 @@ export default{
                     <router-link :to="{name: 'home'}">Home</router-link>
                 </li>
                 <li>
-                    <router-link :to="{name: 'project.index'}">Progetti</router-link>
+                    <router-link :to="{name: 'project.index'}">Project</router-link>
                 </li>
                 <li>
                     <router-link :to="{name: 'about'}">About Me</router-link>
