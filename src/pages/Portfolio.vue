@@ -12,12 +12,14 @@ export default{
 
 <template>
     <div class="container">
-        <h1 class="title">Progetti</h1>
+        <h1 class="title">Projects</h1>
         <!-- uso il componente -->
         <Projects />
     </div>
 </template>
 
 <style scoped>
-
+.title{
+  padding: 24px 0;
+}
 </style>

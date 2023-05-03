@@ -28,3 +28,12 @@ button:hover {
 .card {
   padding: 2em;
 }
+
+ul,
+ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

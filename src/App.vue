@@ -10,7 +10,6 @@ export default{
 
 <template>
   <NavBar/>
-
   <main>
     <!-- permette di montare i componenti definiti nelle rotte -->
     <router-view></router-view> 
@@ -22,7 +21,7 @@ export default{
 </template>
 
 <style scoped>
-.title{
-  padding: 24px 0;
+footer{
+  padding: 30px 0;
 }
 </style>

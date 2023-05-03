@@ -14,7 +14,7 @@ export default{
                     <router-link :to="{name: 'home'}">Home</router-link>
                 </li>
                 <li>
-                    <router-link :to="{name: 'project.index'}">Project</router-link>
+                    <router-link :to="{name: 'project.index'}">Projects</router-link>
                 </li>
                 <li>
                     <router-link :to="{name: 'about'}">About Me</router-link>
@@ -25,6 +25,9 @@ export default{
 </template>
 
 <style scoped>
+header{
+    padding: 30px 0;
+}
 .nav, .nav__menu {
   display: flex;
   align-items: center;
