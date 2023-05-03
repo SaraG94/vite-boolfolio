@@ -14,7 +14,10 @@ export default{
   <header>
     <h1>Portfolio</h1>
   </header>
-  <router-view></router-view>
+  <main>
+    <!-- permette di montare i componenti definiti nelle rotte -->
+    <router-view></router-view> 
+  </main>
   <footer>
     <h4>footer</h4>
   </footer>

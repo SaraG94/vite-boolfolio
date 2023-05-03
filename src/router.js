@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 //importo il componente home
-import Home from './pages/Home.vue'
+import Home from './pages/Home.vue';
+import Portfolio from './pages/Portfolio.vue';
+import AboutMe from './pages/AboutMe.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -11,10 +13,14 @@ const router = createRouter({
             component: Home,//assegno il componente home alla rotta home
         },
         {
-
+            path:'/portfolio',
+            name:'portfolio',
+            component: Portfolio,
         },
         {
-
+            path:'/about-me',
+            name:'about',
+            component: AboutMe,
         }
     ]
 });
