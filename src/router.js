@@ -13,8 +13,8 @@ const router = createRouter({
             component: Home,//assegno il componente home alla rotta home
         },
         {
-            path:'/portfolio',
-            name:'portfolio',
+            path:'/project.index',
+            name:'project.index',
             component: Portfolio,
         },
         {

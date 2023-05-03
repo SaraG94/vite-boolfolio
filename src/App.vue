@@ -1,19 +1,21 @@
 <script>
+import NavBar from './components/NavBar.vue';
 export default{
-
+  
+  components: {
+    NavBar
+  }
 }
 </script>
 
 <template>
-  <header>
-    <h1>Portfolio</h1>
-  </header>
+  <NavBar/>
 
   <main>
     <!-- permette di montare i componenti definiti nelle rotte -->
     <router-view></router-view> 
   </main>
-  
+
   <footer>
     <h4>footer</h4>
   </footer>
