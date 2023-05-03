@@ -11,11 +11,13 @@ export default{
 </script>
 
 <template>
-  <div class="container">
-    <h1 class="title">Progetti</h1>
-    <!-- uso il componente -->
-    <Projects />
-  </div>
+  <header>
+    <h1>Portfolio</h1>
+  </header>
+  <router-view></router-view>
+  <footer>
+    <h4>footer</h4>
+  </footer>
 </template>
 
 <style scoped>
