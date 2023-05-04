@@ -11,7 +11,7 @@ export default {
 
 <template>
     <div class="project-card">
-        <router-link :to="`/project.index/${project.slug}`">
+        <router-link :to="`/projects/${project.slug}`">
             <h3>{{ project.titolo }}</h3>
             <p>{{ project.cliente }}</p>
         </router-link>

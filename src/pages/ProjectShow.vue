@@ -4,9 +4,15 @@ export default{
     props:['slug'],
     methods:{
         fetchProject(){
-            axios.get(`http://localhost:5173/project.index/${this.slug}`)
+            axios.get(`http://127.0.0.1:8000/api/projects/${this.slug}`)
             .then(res=>{
-                console.log(res)
+                const {success, project} = res.data
+
+                if(success){
+                    this.project = project
+                }else{
+                    this.$router.replace({name:'404'})
+                }
             })
             .catch(err=>{
                 console.log(err)
