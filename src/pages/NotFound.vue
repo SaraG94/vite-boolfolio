@@ -8,7 +8,6 @@ export default {
     <div class="h-screen">
       <div class="container">
         <h2><span>404</span> page not found!</h2>
-        <p>La pagina non esiste</p>
       </div>
     </div>
   </template>
