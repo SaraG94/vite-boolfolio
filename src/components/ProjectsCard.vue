@@ -15,7 +15,6 @@ export default {
             <h3>{{ project.titolo }}</h3>
             <p>{{ project.cliente }}</p>
         </router-link>
-
     </div>
 </template>
 

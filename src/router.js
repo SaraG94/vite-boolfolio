@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from './pages/Home.vue';
 import Portfolio from './pages/Portfolio.vue';
 import AboutMe from './pages/AboutMe.vue';
+import ProjectShow from './pages/ProjectShow.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -13,7 +14,7 @@ const router = createRouter({
             component: Home,//assegno il componente home alla rotta home
         },
         {
-            path:'/project.index',
+            path:'/project',
             name:'project.index',
             component: Portfolio,
         },
@@ -21,6 +22,12 @@ const router = createRouter({
             path:'/about-me',
             name:'about',
             component: AboutMe,
+        },
+        {
+            path:'/project.index/:slug',
+            name:'project.show',
+            component:ProjectShow,
+            props: true,
         }
     ]
 });
